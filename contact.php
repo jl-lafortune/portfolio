@@ -17,31 +17,31 @@
 							<ul
 								class="social-links list-unstyled d-flex flex-md-row flex-column align-items-center">
 								<li>
-									<a href="https://www.instagram.com/_blunay/" target="_blank" class="me-3"
-										><i class="bi bi-instagram"></i> Instagram</a
+									<a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener noreferrer" class="me-3"
+										><i class="bi bi-instagram" aria-hidden="true"></i> Instagram</a
 									>
 								</li>
 								<li>
 									<a
 										href="https://www.linkedin.com/in/jean-luc-lafortune/"
-										target="_blank"
+										target="_blank" rel="noopener noreferrer"
 										class="me-3"
-										><i class="bi bi-linkedin"></i> LinkedIn</a
+										><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a
+										>
+								</li>
+								<li>
+									<a href="https://github.com/BluNay" target="_blank" rel="noopener noreferrer" class="me-3"
+										><i class="bi bi-github" aria-hidden="true"></i> GitHub</a
 									>
 								</li>
 								<li>
-									<a href="https://github.com/BluNay" target="_blank" class="me-3"
-										><i class="bi bi-github"></i> GitHub</a
+									<a href="https://www.behance.net/BluNay" target="_blank" rel="noopener noreferrer" class="me-3"
+										><i class="bi bi-behance" aria-hidden="true"></i> Behance</a
 									>
 								</li>
 								<li>
-									<a href="https://www.behance.net/BluNay" target="_blank" class="me-3"
-										><i class="bi bi-behance"></i> Behance</a
-									>
-								</li>
-								<li>
-									<a href="https://pinterest.com/lafortunejly/" target="_blank"
-										><i class="bi bi-pinterest"></i> Pinterest</a
+									<a href="https://pinterest.com/lafortunejly/" target="_blank" rel="noopener noreferrer"
+										><i class="bi bi-pinterest" aria-hidden="true"></i> Pinterest</a
 									>
 								</li>
 							</ul>

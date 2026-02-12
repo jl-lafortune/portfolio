@@ -54,17 +54,17 @@
 						</ul>
 						<!-- Icônes des réseaux sociaux -->
 						<div class="d-flex justify-content-center social-icon">
-							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank" alt="Instagram">
-								<i class="bi bi-instagram" alt="Instagram"></i>
+							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+								<i class="bi bi-instagram" aria-hidden="true"></i>
 							</a>
 							<a
 								href="https://www.linkedin.com/in/jean-luc-lafortune/"
 								class="text-white"
-								target="_blank" alt="LinkedIn">
-								<i class="bi bi-linkedin"></i>
+								target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+								<i class="bi bi-linkedin" aria-hidden="true"></i>
 							</a>
-							<a href="https://github.com/BluNay" class="text-white" target="_blank" alt="GitHub">
-								<i class="bi bi-github"></i>
+							<a href="https://github.com/BluNay" class="text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+								<i class="bi bi-github" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>

@@ -8,8 +8,8 @@
 					<h2 class="text-center my-4 text-uppercase">Mentions légales</h2>
 					<p>
 						Ce site est un portfolio personnel. Il est hébergé sur
-						<a href="https://pages.github.com/" target="_blank"> GitHub Pages </a> et pourra être
-						transféré sur <a href="https://www.ovhcloud.com/" target="_blank"> OVH </a> à
+						<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"> GitHub Pages </a> et pourra être
+						transféré sur <a href="https://www.ovhcloud.com/" target="_blank" rel="noopener noreferrer"> OVH </a> à
 						l'avenir.
 					</p>
 					<p>

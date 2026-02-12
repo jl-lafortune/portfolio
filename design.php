@@ -85,7 +85,7 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<a
 					href="https://drive.google.com/drive/folders/1CZw9UfAhzo43ocOlmuR_4DrAlIXuDdGa?usp=sharing"
-					target="_blank"
+					target="_blank" rel="noopener noreferrer"
 					class="btn btn-custom mb-5 py-3">
 					Voir plus
 				</a>
