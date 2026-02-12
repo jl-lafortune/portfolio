@@ -1,7 +1,7 @@
 <footer class="text-center mx-4">
 			<nav class="d-flex align-items-center justify-content-center flex-md-row flex-column">
-				<p>&copy; 2024 LAFORTUNE Jean-Luc. Tous droits réservés</p>
-				<a href="mentions-legales.html">Mentions Légales</a>
+					<p>&copy; 2024 LAFORTUNE Jean-Luc. Tous droits réservés</p>
+					<a href="mentions-legales.php">Mentions Légales</a>
 			</nav>
 		</footer>
 		<!-- Scripts -->

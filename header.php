@@ -20,7 +20,7 @@
 			<nav class="navbar navbar-expand-lg mx-4">
 				<div class="container">
 					<!-- Logo -->
-					<a class="navbar-brand mx-3" href="index.html">
+					<a class="navbar-brand mx-3" href="index.php">
 						<img src="src/media/img/B_white.svg" alt="Logo BluNay" class="logo" />
 					</a>
 
@@ -40,30 +40,30 @@
 						<!-- Menus centrés -->
 						<ul class="navbar-nav mx-auto align-items-center">
 							<li class="nav-item">
-								<a class="nav-link" href="a-propos.html">À Propos</a>
+								<a class="nav-link" href="a-propos.php">À Propos</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="design.html">Design</a>
+								<a class="nav-link" href="design.php">Design</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="photos.html">Photos</a>
+								<a class="nav-link" href="photos.php">Photos</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="contact.html">Contact</a>
+								<a class="nav-link" href="contact.php">Contact</a>
 							</li>
 						</ul>
 						<!-- Icônes des réseaux sociaux -->
 						<div class="d-flex justify-content-center social-icon">
-							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank">
-								<i class="bi bi-instagram"></i>
+							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank" alt="Instagram">
+								<i class="bi bi-instagram" alt="Instagram"></i>
 							</a>
 							<a
 								href="https://www.linkedin.com/in/jean-luc-lafortune/"
 								class="text-white"
-								target="_blank">
+								target="_blank" alt="LinkedIn">
 								<i class="bi bi-linkedin"></i>
 							</a>
-							<a href="https://github.com/BluNay" class="text-white" target="_blank">
+							<a href="https://github.com/BluNay" class="text-white" target="_blank" alt="GitHub">
 								<i class="bi bi-github"></i>
 							</a>
 						</div>
