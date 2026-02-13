@@ -6,6 +6,7 @@
 		url(../media/fonts/ClashDisplay_Complete/ClashDisplay-Medium.woff2) format("woff2"),
 		url(../media/fonts/ClashDisplay_Complete/ClashDisplay-Regular.woff2) format("woff2"),
 		url(../media/fonts/ClashDisplay_Complete/ClashDisplay-Semibold.woff2) format("woff2");
+	font-display: swap;
 }
 
 @font-face {
@@ -22,6 +23,8 @@
 		url(../media/fonts/Archivo_Complete/Archivo-Light.woff2) format("woff2"),
 		url(../media/fonts/Archivo_Complete/Archivo-LightItalic.woff2) format("woff2"),
 		url(../media/fonts/Archivo_Complete/Archivo-Medium.woff2) format("woff2");
+	font-display: swap;
+
 }
 
 // --- VARIABLES ---
@@ -458,6 +461,14 @@ footer {
 }
 
 // --- MEDIA QUERIES ---
+@media (prefers-reduced-motion: reduce) {
+  html, body, * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
 @media (max-width: 768px) {
 
 	html,

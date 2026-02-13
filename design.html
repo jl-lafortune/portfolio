@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="src/css/style.css" />
 	</head>
 	<body>
+		<a class="skip-link" href="#design">Aller au contenu</a>
 		<header>
 			<nav class="navbar navbar-expand-lg mx-4">
 				<div class="container">
@@ -54,16 +55,25 @@
 						</ul>
 						<!-- Icônes des réseaux sociaux -->
 						<div class="d-flex justify-content-center social-icon">
-							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank">
+							<a
+								href="https://www.instagram.com/_blunay/"
+								class="text-white"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-instagram"></i>
 							</a>
 							<a
 								href="https://www.linkedin.com/in/jean-luc-lafortune/"
 								class="text-white"
-								target="_blank">
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-linkedin"></i>
 							</a>
-							<a href="https://github.com/BluNay" class="text-white" target="_blank">
+							<a
+								href="https://github.com/BluNay"
+								class="text-white"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-github"></i>
 							</a>
 						</div>
@@ -90,14 +100,22 @@
 						<!-- Image 2 -->
 						<article class="col-lg-4 col-12 img-container mx-4 mb-5">
 							<a href="#lightbox2">
-								<img class="img-fluid" src="src/media/img/swoosh.png" alt="swoosh" />
+								<img
+									class="img-fluid"
+									src="src/media/img/swoosh.png"
+									alt="swoosh"
+									loading="lazy" />
 								<span class="overlay">Swoosh</span>
 							</a>
 						</article>
 						<!-- Image 3 -->
 						<article class="col-lg-4 col-12 img-container ml-4">
 							<a href="#lightbox3">
-								<img class="img-fluid" src="src/media/img/tikita.png" alt="tikita" />
+								<img
+									class="img-fluid"
+									src="src/media/img/tikita.png"
+									alt="tikita"
+									loading="lazy" />
 								<span class="overlay">Tikita</span>
 							</a>
 						</article>
@@ -112,7 +130,8 @@
 					<img
 						src="src/media/img/gradient-sunset.png"
 						alt="gradient-sunset"
-						class="lightbox-image" />
+						class="lightbox-image"
+						loading="lazy" />
 					<div class="lightbox-info">
 						<h2>Gradient Sunset</h2>
 						<p></p>
@@ -125,7 +144,7 @@
 			<div id="lightbox2" class="lightbox">
 				<div class="lightbox-content">
 					<a href="#" class="close">&times;</a>
-					<img src="src/media/img/swoosh.png" alt="swoosh" class="lightbox-image" />
+					<img src="src/media/img/swoosh.png" alt="swoosh" class="lightbox-image" loading="lazy" />
 					<div class="lightbox-info">
 						<h2>Swoosh</h2>
 						<p>
@@ -140,7 +159,7 @@
 			<div id="lightbox3" class="lightbox">
 				<div class="lightbox-content">
 					<a href="#" class="close">&times;</a>
-					<img src="src/media/img/tikita.png" alt="tikita" class="lightbox-image" />
+					<img src="src/media/img/tikita.png" alt="tikita" class="lightbox-image" loading="lazy" />
 					<div class="lightbox-info">
 						<h2>Tikita</h2>
 						<p>
@@ -155,13 +174,19 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<a
 					href="https://drive.google.com/drive/folders/1CZw9UfAhzo43ocOlmuR_4DrAlIXuDdGa?usp=sharing"
-					target="_blank" rel="noopener noreferrer"
+					target="_blank"
+					rel="noopener noreferrer"
 					class="btn btn-custom mb-5 py-3">
 					Voir plus
 				</a>
 			</div>
 		</main>
 
-<?php
-    include 'footer.php';
-?>
+		<footer class="text-center mx-4">
+			<nav class="d-flex align-items-center justify-content-center flex-md-row flex-column">
+				<p>&copy; 2024 LAFORTUNE Jean-Luc. Tous droits réservés</p>
+				<a href="mentions-legales.html">Mentions Légales</a>
+			</nav>
+		</footer>
+	</body>
+</html>

@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="src/css/style.css" />
 	</head>
 	<body>
+		<a class="skip-link" href="#legal">Aller au contenu</a>
 		<header>
 			<nav class="navbar navbar-expand-lg mx-4">
 				<div class="container">
@@ -54,16 +55,25 @@
 						</ul>
 						<!-- Icônes des réseaux sociaux -->
 						<div class="d-flex justify-content-center social-icon">
-							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank">
+							<a
+								href="https://www.instagram.com/_blunay/"
+								class="text-white"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-instagram"></i>
 							</a>
 							<a
 								href="https://www.linkedin.com/in/jean-luc-lafortune/"
 								class="text-white"
-								target="_blank">
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-linkedin"></i>
 							</a>
-							<a href="https://github.com/BluNay" class="text-white" target="_blank">
+							<a
+								href="https://github.com/BluNay"
+								class="text-white"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i class="bi bi-github"></i>
 							</a>
 						</div>
@@ -78,9 +88,12 @@
 					<h2 class="text-center my-4 text-uppercase">Mentions légales</h2>
 					<p>
 						Ce site est un portfolio personnel. Il est hébergé sur
-						<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"> GitHub Pages </a> et pourra être
-						transféré sur <a href="https://www.ovhcloud.com/" target="_blank" rel="noopener noreferrer"> OVH </a> à
-						l'avenir.
+						<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"
+							>GitHub Pages</a
+						>
+						et pourra être transféré sur
+						<a href="https://www.ovhcloud.com/" target="_blank" rel="noopener noreferrer">OVH</a>
+						à l'avenir.
 					</p>
 					<p>
 						Responsable de publication : LAFORTUNE Jean-Luc<br />
@@ -95,6 +108,11 @@
 			</section>
 		</main>
 
-<?php
-    include 'footer.php';
-?>
+		<footer class="text-center mx-4">
+			<nav class="d-flex align-items-center justify-content-center flex-md-row flex-column">
+				<p>&copy; 2024 LAFORTUNE Jean-Luc. Tous droits réservés</p>
+				<a href="mentions-legales.html">Mentions Légales</a>
+			</nav>
+		</footer>
+	</body>
+</html>
