@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
@@ -20,7 +20,7 @@
 			<nav class="navbar navbar-expand-lg mx-4">
 				<div class="container">
 					<!-- Logo -->
-					<a class="navbar-brand mx-3" href="index.php">
+					<a class="navbar-brand mx-3" href="index.html">
 						<img src="src/media/img/B_white.svg" alt="Logo BluNay" class="logo" />
 					</a>
 
@@ -40,34 +40,61 @@
 						<!-- Menus centrés -->
 						<ul class="navbar-nav mx-auto align-items-center">
 							<li class="nav-item">
-								<a class="nav-link" href="a-propos.php">À Propos</a>
+								<a class="nav-link" href="a-propos.html">À Propos</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="design.php">Design</a>
+								<a class="nav-link" href="design.html">Design</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="photos.php">Photos</a>
+								<a class="nav-link" href="photos.html">Photos</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="contact.php">Contact</a>
+								<a class="nav-link" href="contact.html">Contact</a>
 							</li>
 						</ul>
 						<!-- Icônes des réseaux sociaux -->
 						<div class="d-flex justify-content-center social-icon">
-							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-								<i class="bi bi-instagram" aria-hidden="true"></i>
+							<a href="https://www.instagram.com/_blunay/" class="text-white" target="_blank">
+								<i class="bi bi-instagram"></i>
 							</a>
 							<a
 								href="https://www.linkedin.com/in/jean-luc-lafortune/"
 								class="text-white"
-								target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-								<i class="bi bi-linkedin" aria-hidden="true"></i>
+								target="_blank">
+								<i class="bi bi-linkedin"></i>
 							</a>
-							<a href="https://github.com/BluNay" class="text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-								<i class="bi bi-github" aria-hidden="true"></i>
+							<a href="https://github.com/BluNay" class="text-white" target="_blank">
+								<i class="bi bi-github"></i>
 							</a>
 						</div>
 					</div>
 				</div>
 			</nav>
 		</header>
+
+		<main id="legal">
+			<section class="py-5 d-flex align-items-center">
+				<div class="container text-lg-start text-center">
+					<h2 class="text-center my-4 text-uppercase">Mentions légales</h2>
+					<p>
+						Ce site est un portfolio personnel. Il est hébergé sur
+						<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"> GitHub Pages </a> et pourra être
+						transféré sur <a href="https://www.ovhcloud.com/" target="_blank" rel="noopener noreferrer"> OVH </a> à
+						l'avenir.
+					</p>
+					<p>
+						Responsable de publication : LAFORTUNE Jean-Luc<br />
+						Email : <a href="mailto:lafortunejl@outlook.fr"> lafortunejl@outlook.fr </a><br />
+					</p>
+					<p>
+						Tous les contenus (images, textes, etc.) présents sur ce site sont protégés par le
+						droit d'auteur. Toute reproduction, partielle ou totale, est interdite sans
+						autorisation explicite.
+					</p>
+				</div>
+			</section>
+		</main>
+
+<?php
+    include 'footer.php';
+?>
