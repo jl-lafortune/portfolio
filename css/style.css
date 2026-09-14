@@ -406,14 +406,20 @@ h3,
 	gap: 0.5rem;
 }
 .logo .dot {
-	width: 100px;
-	height: 100px;
-	color: var(--accent);
-	transition: color 0.4s ease-in-out;
+  width: 60px;
+  height: 60px;
+  color: var(--accent);
+  background-image: linear-gradient(to bottom, #000, var(--accent));
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .logo .dot:hover {
-	color: var(--ink-3);
+  color: transparent;
+  background-position: 0% 100%;
 }
 
 .nav-desktop {
