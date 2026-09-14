@@ -1165,8 +1165,10 @@ h3,
   font-size: 0.95rem;
 }
 
-.contact-links a[data-network="linkedin"]:hover {
+.contact-links a[data-network="linkedin"]::before {
   background: #0A66C2;
+}
+.contact-links a[data-network="linkedin"]:hover {
   color: #fff;
   border-color: #0A66C2;
 }
@@ -1180,20 +1182,26 @@ h3,
   border-color: #d62976;
 }
 
-.contact-links a[data-network="behance"]:hover {
+.contact-links a[data-network="behance"]::before {
   background: #1769FF;
+}
+.contact-links a[data-network="behance"]:hover {
   color: #fff;
   border-color: #1769FF;
 }
 
-.contact-links a[data-network="github"]:hover {
+.contact-links a[data-network="github"]::before {
   background: var(--ink);
+}
+.contact-links a[data-network="github"]:hover {
   color: var(--paper);
   border-color: var(--ink);
 }
 
-.contact-links a[data-network="pinterest"]:hover {
+.contact-links a[data-network="pinterest"]::before {
   background: #E60023;
+}
+.contact-links a[data-network="pinterest"]:hover {
   color: #fff;
   border-color: #E60023;
 }
