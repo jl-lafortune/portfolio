@@ -406,22 +406,14 @@ h3,
 	gap: 0.5rem;
 }
 .logo .dot {
-  width: 60px;
-  height: 60px;
-  color: var(--accent);
+	width: 100px;
+	height: 100px;
+	color: var(--accent);
+	transition: color 0.4s ease-in-out;
 }
 
-.logo .dot .dot-gradient-end {
-  stop-color: var(--accent);
-}
-
-.logo .dot .dot-gradient-overlay {
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-}
-
-.logo .dot:hover .dot-gradient-overlay {
-  opacity: 1;
+.logo .dot:hover {
+	color: var(--ink-3);
 }
 
 .nav-desktop {
