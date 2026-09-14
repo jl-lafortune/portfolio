@@ -47,6 +47,12 @@
   document.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
+  document.querySelectorAll('[data-svg]').forEach(async (el) => {
+  const res = await fetch(el.dataset.svg);
+  const svgText = await res.text();
+  el.outerHTML = svgText.replace('<svg', '<svg class="dot"');
+});
+
   /* ---------- Mobile menu ---------- */
   var burger = document.querySelector(".burger");
   var mobileMenu = document.querySelector(".mobile-menu");
