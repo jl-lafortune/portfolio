@@ -409,17 +409,19 @@ h3,
   width: 60px;
   height: 60px;
   color: var(--accent);
-  background-image: linear-gradient(to bottom, #000, var(--accent));
-  background-size: 100% 200%;
-  background-position: 0% 0%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
-.logo .dot:hover {
-  color: transparent;
-  background-position: 0% 100%;
+.logo .dot .stop-accent {
+  stop-color: var(--accent);
+}
+
+.logo .dot .dot-gradient-layer {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.logo .dot:hover .dot-gradient-layer {
+  opacity: 1;
 }
 
 .nav-desktop {
