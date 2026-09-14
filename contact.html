@@ -1,176 +1,187 @@
 <!doctype html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">
-<script>document.documentElement.classList.add('js')</script>
-<script>try{if(localStorage.getItem('theme')==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}</script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Jean-Luc Lafortune</title>
-<meta name="description" content="Contactez Jean-Luc Lafortune pour toute collaboration, stage ou projet freelance en design graphique, UI/UX et motion design.">
-<link rel="icon" type="image/x-icon" href="assets/logo_blunay_head.ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<style>
-  .field{ margin-bottom:1.4rem; }
-  .field label{ display:block; font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--text-dim); margin-bottom:.6rem; }
-  .field input, .field textarea{
-    width:100%; background:transparent; border:0; border-bottom:1px solid var(--line);
-    color:var(--text); font-family:var(--font-body); font-size:1.05rem; padding:.7rem 0;
-    transition:border-color .3s;
-  }
-  .field input:focus, .field textarea:focus{ outline:none; border-color:var(--accent); }
-  .field textarea{ resize:vertical; min-height:120px; }
-</style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <script>document.documentElement.classList.add('js')</script>
+    <script>try{if(localStorage.getItem('theme')==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Jean-Luc Lafortune</title>
+    <meta name="description" content="Contactez Jean-Luc Lafortune pour toute collaboration, stage ou projet freelance en design graphique, UI/UX et motion design.">
+    <link rel="icon" type="image/x-icon" href="assets/logo_blunay_head.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .field{ margin-bottom:1.4rem; }
+      .field label{ display:block; font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--text-dim); margin-bottom:.6rem; }
+      .field input, .field textarea{
+        width:100%; background:transparent; border:0; border-bottom:1px solid var(--line);
+        color:var(--text); font-family:var(--font-body); font-size:1.05rem; padding:.7rem 0;
+        transition:border-color .3s;
+      }
+      .field input:focus, .field textarea:focus{ outline:none; border-color:var(--accent); }
+      .field textarea{ resize:vertical; min-height:120px; }
+    </style>
+  </head>
+  <body>
 
-<div class="progress"></div>
-<div class="grain"></div>
+  <div class="progress"></div>
+  <div class="grain"></div>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="index.html" class="logo">
-			<span class="dot" data-svg="./images/logo_blunay_head.svg"></span>
-		</a>
-    <nav class="nav-desktop" aria-label="Navigation principale">
-      <a href="index.html">Accueil</a>
-      <a href="travaux.html">Travaux</a>
-      <a href="parcours.html">Parcours</a>
-      <a href="a-propos.html">À propos</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="header-actions">
-      <button class="theme-toggle" id="theme-toggle" aria-label="Basculer le thème clair/sombre">
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-      </button>
-      <a href="contact.html" class="btn btn-ghost nav-cta">Discutons</a>
-      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
-        <span></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-<div class="mobile-menu">
-  <a href="index.html">Accueil</a>
-  <a href="travaux.html">Travaux</a>
-  <a href="parcours.html">Parcours</a>
-  <a href="a-propos.html">À propos</a>
-  <a href="contact.html">Contact</a>
-  <div class="menu-foot">
-    <a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener">Instagram</a>
-    <a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://www.behance.net/BluNay" target="_blank" rel="noopener">Behance</a>
-    <a href="https://github.com/BluNay" target="_blank" rel="noopener">GitHub</a>
-  </div>
-</div>
-
-<main>
-  <section class="page-hero">
+  <header class="site-header">
     <div class="wrap">
-      <span class="eyebrow reveal">Contact</span>
-      <h1 class="reveal" style="margin-top:1rem; max-width:16ch;">Parlons de votre projet.</h1>
-      <p class="lead reveal" style="margin-top:1.2rem;">
-        Disponible pour des collaborations, stages et projets freelance en design graphique, UI/UX et motion design.
-      </p>
-    </div>
-  </section>
-
-  <section class="section-tight">
-    <div class="wrap grid-2">
-
-      <div class="reveal">
-        <span class="eyebrow">Écrivez-moi</span>
-        <form class="mt-0" style="margin-top:1.6rem;" action="https://formspree.io/f/xeaqylpz" method="POST">
-          <div class="field">
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" required placeholder="Votre nom">
-          </div>
-          <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="vous@exemple.com">
-          </div>
-          <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Parlez-moi de votre projet…"></textarea>
-          </div>
-          <button type="submit" class="btn btn-solid">
-            Envoyer le message
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
-          </button>
-        </form>
+      <a href="index.html" class="logo">
+        <span class="dot" data-svg="./images/logo_blunay_head.svg"></span>
+      </a>
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="travaux.html">Travaux</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Basculer le thème clair/sombre">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="contact.html" class="btn btn-ghost nav-cta">Discutons</a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+        </button>
       </div>
+    </div>
+  </header>
 
-      <div class="reveal">
-        <span class="eyebrow">Coordonnées</span>
-        <div style="margin-top:1.6rem; display:flex; flex-direction:column; gap:1.6rem;">
-          <div class="card">
-            <h3 style="font-size:1.05rem;">Email</h3>
-            <a href="mailto:lafortunejl@outlook.fr" class="lead" style="display:block; margin-top:.5rem; font-size:1.1rem;">lafortunejl@outlook.fr</a>
-          </div>
-          <div class="card">
-            <h3 style="font-size:1.05rem;">Réseaux</h3>
-            <div class="contact-links" style="margin-top:.8rem;">
-              <a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener" style="border-color:var(--line); color:var(--text);">LinkedIn</a>
-              <a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener" style="border-color:var(--line); color:var(--text);">Instagram</a>
-              <a href="https://www.behance.net/BluNay" target="_blank" rel="noopener" style="border-color:var(--line); color:var(--text);">Behance</a>
-              <a href="https://github.com/BluNay" target="_blank" rel="noopener" style="border-color:var(--line); color:var(--text);">GitHub</a>
-              <a href="https://pinterest.com/lafortunejly/" target="_blank" rel="noopener" style="border-color:var(--line); color:var(--text);">Pinterest</a>
+  <div class="mobile-menu">
+    <a href="index.html">Accueil</a>
+    <a href="travaux.html">Travaux</a>
+    <a href="parcours.html">Parcours</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <div class="menu-foot">
+      <a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.behance.net/BluNay" target="_blank" rel="noopener">Behance</a>
+      <a href="https://github.com/BluNay" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow reveal">Contact</span>
+        <h1 class="reveal" style="margin-top:1rem; max-width:16ch;">Parlons de votre projet.</h1>
+        <p class="lead reveal" style="margin-top:1.2rem;">
+          Disponible pour des collaborations, stages et projets freelance en design graphique, UI/UX et motion design.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="wrap grid-2">
+
+        <div class="reveal">
+          <span class="eyebrow">Écrivez-moi</span>
+          <form class="mt-0" style="margin-top:1.6rem;" action="https://formspree.io/f/xeaqylpz" method="POST">
+            <div class="field">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="vous@exemple.com">
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Parlez-moi de votre projet…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-solid">
+              Envoyer le message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow">Coordonnées</span>
+          <div style="margin-top:1.6rem; display:flex; flex-direction:column; gap:1.6rem;">
+            <div class="card">
+              <h3 style="font-size:1.05rem;">Email</h3>
+              <a href="mailto:lafortunejl@outlook.fr" class="lead" style="display:block; margin-top:.5rem; font-size:1.1rem;">lafortunejl@outlook.fr</a>
+            </div>
+            <div class="card">
+              <h3 style="font-size:1.05rem;">Réseaux</h3>
+              <div class="contact-links" style="margin-top:.8rem;">
+  <a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener" data-network="linkedin" style="border-color:var(--line); color:var(--text);">
+    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+  </a>
+  <a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener" data-network="instagram" style="border-color:var(--line); color:var(--text);">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+  <a href="https://www.behance.net/BluNay" target="_blank" rel="noopener" data-network="behance" style="border-color:var(--line); color:var(--text);">
+    <i class="fa-brands fa-behance"></i> Behance
+  </a>
+  <a href="https://github.com/BluNay" target="_blank" rel="noopener" data-network="github" style="border-color:var(--line); color:var(--text);">
+    <i class="fa-brands fa-github"></i> GitHub
+  </a>
+  <a href="https://pinterest.com/lafortunejly/" target="_blank" rel="noopener" data-network="pinterest" style="border-color:var(--line); color:var(--text);">
+    <i class="fa-brands fa-pinterest-p"></i> Pinterest
+  </a>
+</div>
             </div>
           </div>
         </div>
-      </div>
 
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-top">
-      <div>
-        <a href="index.html" class="logo"><span class="dot"></span>Jean-Luc Lafortune</a>
-        <p class="text-dim" style="max-width:32ch; margin-top:1rem;">Design graphique, UI/UX &amp; motion design. Basé à La Réunion.</p>
       </div>
-      <div class="footer-cols">
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
         <div>
-          <h4>Navigation</h4>
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="travaux.html">Travaux</a></li>
-            <li><a href="parcours.html">Parcours</a></li>
-            <li><a href="a-propos.html">À propos</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+          <a href="index.html" class="logo"><span class="dot"></span>Jean-Luc Lafortune</a>
+          <p class="text-dim" style="max-width:32ch; margin-top:1rem;">Design graphique, UI/UX &amp; motion design. Basé à La Réunion.</p>
         </div>
-        <div>
-          <h4>Projets</h4>
-          <ul>
-            <li><a href="projet-over.html">Over.</a></li>
-            <li><a href="projet-fournaise-origin.html">Fournaise Origin</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Réseaux</h4>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener">Instagram</a></li>
-            <li><a href="https://www.behance.net/BluNay" target="_blank" rel="noopener">Behance</a></li>
-            <li><a href="https://github.com/BluNay" target="_blank" rel="noopener">GitHub</a></li>
-          </ul>
+        <div class="footer-cols">
+          <div>
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="travaux.html">Travaux</a></li>
+              <li><a href="parcours.html">Parcours</a></li>
+              <li><a href="a-propos.html">À propos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Projets</h4>
+            <ul>
+              <li><a href="projet-over.html">Over.</a></li>
+              <li><a href="projet-fournaise-origin.html">Fournaise Origin</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Réseaux</h4>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/jean-luc-lafortune/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/_blunay/" target="_blank" rel="noopener">Instagram</a></li>
+              <li><a href="https://www.behance.net/BluNay" target="_blank" rel="noopener">Behance</a></li>
+              <li><a href="https://github.com/BluNay" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> LAFORTUNE Jean-Luc. Tous droits réservés — <a href="mentions-legales.html">Mentions légales</a></span>
+        <a href="#top" class="back-to-top">↑ Haut de page</a>
+      </div>
     </div>
-    <div class="footer-bottom">
-      <span>© <span data-year></span> LAFORTUNE Jean-Luc. Tous droits réservés — <a href="mentions-legales.html">Mentions légales</a></span>
-      <a href="#top" class="back-to-top">↑ Haut de page</a>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-<script src="js/main.js"></script>
-</body>
+  <script src="js/main.js"></script>
+  </body>
 </html>

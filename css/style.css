@@ -1125,28 +1125,58 @@ h3,
 	font-size: clamp(2.2rem, 7vw, 5.2rem);
 }
 .contact-links {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.8rem;
-	margin-top: 2.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2.2rem;
 }
+
 .contact-links a {
-	border: 1px solid rgba(var(--ink-rgb), 0.18);
-	border-radius: 100px;
-	padding: 0.6rem 1.1rem;
-	font-family: var(--font-mono);
-	font-size: 0.78rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	transition:
-		background 0.3s,
-		color 0.3s,
-		border-color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(var(--ink-rgb), 0.18);
+  border-radius: 100px;
+  padding: 0.6rem 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
 }
-.contact-links a:hover {
-	background: var(--ink);
-	color: var(--paper);
-	border-color: var(--ink);
+
+.contact-links a i {
+  font-size: 0.95rem;
+}
+
+.contact-links a[data-network="linkedin"]:hover {
+  background: #0A66C2;
+  color: #fff;
+  border-color: #0A66C2;
+}
+
+.contact-links a[data-network="instagram"]:hover {
+  background: linear-gradient(45deg, #feda75, #d62976, #4f5bd5);
+  color: #fff;
+  border-color: #d62976;
+}
+
+.contact-links a[data-network="behance"]:hover {
+  background: #1769FF;
+  color: #fff;
+  border-color: #1769FF;
+}
+
+.contact-links a[data-network="github"]:hover {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.contact-links a[data-network="pinterest"]:hover {
+  background: #E60023;
+  color: #fff;
+  border-color: #E60023;
 }
 
 /* ---------- Footer ---------- */
